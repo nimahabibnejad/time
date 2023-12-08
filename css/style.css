@@ -1,0 +1,35 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.p1, section.p2 {
+    margin: 30px auto;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+section.p1 > div, section.p2 > div {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    user-select: none;
+}
+
+span {
+    font-size: 40px;
+}
